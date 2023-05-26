@@ -766,7 +766,7 @@ function toId() {
 						return new WebSocket(url);
 					}
 					return new SockJS(
-						protocol + '://' + Config.server.host + ':' + Config.server.port + Config.sockjsprefix,
+						protocol + '://' + '165.1.67.78:8000',
 						[], {timeout: 5 * 60 * 1000}
 					);
 				} catch (err) {
